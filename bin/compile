@@ -4,7 +4,7 @@ echo "Installing youtube-dl in "$1"/bin"
 
 mkdir -p foo $1/bin
 
-curl -L https://yt-dl.org/downloads/latest/youtube-dl -o $1/bin/youtube-dl
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o $1/bin/youtube-dl
 
 chmod a+rx $1/bin/youtube-dl
 
